@@ -1,0 +1,419 @@
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .main-menu ul li {
+        padding-left: 20px;
+    }
+    .features-area {
+        margin-top: 0px;
+    }
+    .single-slider h2 {
+        font-size: 60px;
+    }
+    .why-us-content h3 {
+        font-size: 28px;
+    }
+    .why-us-content p {
+        font-size: 14px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .email-subscribe form input {
+        width: 230px;
+        padding: 15px 30px;
+    }
+    .email-subscribe form button {
+        padding: 15px 35px;
+        margin-left: 10px;
+    }
+    .service-text {
+        margin-bottom: 30px;
+    }
+    .blog-content h2 {
+        font-size: 20px;
+    }
+    .footer-content h3 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width:991px) {
+    .header-area {
+        padding: 20px 40px;
+    }
+    .header-area {
+        padding: 20px 40px;
+    }
+    .single-slider h2 {
+        font-size: 50px;
+    }
+    .single-slider p {
+        font-size: 13px;
+    }
+    .purchase {
+        margin-top: 15px;
+    }
+    .features-area {
+        margin-top: 50px;
+    }
+    .single-feature {
+        padding: 40px 12px 50px;
+    }
+    .single-feature svg {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .single-feature h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .single-feature p {
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .why-us-content h3 {
+        font-size: 20px;
+    }
+    .why-us-content hr {
+        margin: 10px 0;
+    }
+    .why-us-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .btn {
+        padding: 15px 50px;
+        margin-top: 15px;
+    }
+    .email-subscribe form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .email-subscribe form button {
+        margin-left: 0;
+        width: 100%;
+    }
+    .pricing-items {
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+    .blog-content .btn {
+        padding: 12px 30px;
+        margin-top: 20px;
+    }
+    .single-testimonial {
+        padding: 65px 90px 105px 90px;
+    }
+    .single-testimonial p {
+        margin-bottom: 0;
+    }
+    .footer-icon svg {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width:767px) {
+    .header-area {
+        padding: 20px 40px;
+    }
+    .slider-icon a {
+        color: #505cfd;
+        font-size: 14px;
+    }
+    .single-slider h2 {
+        font-size: 35px;
+    }
+    .single-slider p {
+        font-size: 14px;
+        margin-top: 13px;
+    }
+    .single-slider .purchase a {
+        padding: 15px 40px;
+    }
+    .purchase {
+        margin-top: 15px;
+    }
+    .features-area {
+        margin-top: 50px;
+    }
+    .btn {
+        padding: 15px 50px;
+        margin-top: 15px;
+    }
+
+    .email-subscribe form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .email-subscribe form button {
+        margin-left: 0;
+        width: 100%;
+    }
+    .single-feature {
+        border-bottom: 1px solid #6a74fc;
+    }
+    .why-us-content h3 {
+        font-size: 30px;
+    }
+    .why-us-content p {
+        font-size: 13px;
+    }
+    .why-us-content {
+        margin-bottom: 25px;
+    }
+    .section-title h2 {
+        font-size: 27px;
+    }
+    .pricing-items {
+        -moz-box-flex: 0;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .counter-wrapper {
+        margin-bottom: 25px;
+    }
+    .blog-content h2 {
+        font-size: 15px;
+    }
+    .blog-content p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .blog-content .btn {
+        font-size: 14px;
+        padding: 12px 25px;
+        margin-top: 15px;
+    }
+    .single-testimonial {
+        padding: 30px;
+    }
+    .testimonial-active .slick-dots {
+        margin-top: -55px;
+    }
+    .footer-icon svg {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-top: 15px;
+    }
+    .footer-link ul li {
+        font-size: 14px;
+    }
+    .copyright-text {
+        text-align: center;
+    }
+    .footer-menu {
+        text-align: center !important;
+    }
+}
+
+/* // Small devices (landscape phones, 480px and up) */
+
+@media (min-width: 480px) and (max-width:575px) {
+    .header-area {
+        border-bottom: 1px solid #d0cdcb;
+        padding: 20px 40px;
+    }
+    .slider-icon a {
+        color: #505cfd;
+        font-size: 14px;
+    }
+    .single-slider h2 {
+        font-size: 35px;
+    }
+    .purchase {
+        margin-top: 20px;
+    }
+    .single-slider .purchase a {
+        padding: 15px 40px;
+    }
+    .features-area {
+        margin-top: 50px;
+    }
+    .single-feature {
+        border-right: none;
+        border-bottom: 1px solid #6a74fc; 
+    }
+    .blog-content .btn {
+        padding: 15px 30px;
+        margin-top: 15px;
+    }
+    .why-us-content h3 {
+        font-size: 25px;
+    }
+    .btn {
+        padding: 15px 50px;
+        margin-top: 15px;
+    }
+    .why-us-content {
+        margin-bottom: 24px;
+    }
+    .email-subscribe form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .email-subscribe form button {
+        margin-left: 0;
+        width: 100%;
+    }
+    .section-title h2 {
+        font-size: 24px;
+    }
+    .pricing-items {
+        -moz-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .counter-wrapper {
+        margin-bottom: 25px;
+    }
+    .single-testimonial {
+        padding: 25px;
+    }
+    .single-testimonial p {
+        line-height: 24px;
+    }
+    .single-testimonial span {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    .testimonial-active .slick-dots {
+        margin-top: -55px;
+    }
+    .footer-icon svg {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-top: 15px;
+    }
+    .footer-link ul li {
+        font-size: 14px;
+    }
+    .copyright-text {
+        text-align: center;
+    }
+    .footer-menu {
+        text-align: center !important;
+    }
+}
+
+/* // Extra Small devices (320px and up) */
+
+@media (min-width: 320px) and (max-width:479px) {
+    .header-area {
+        border-bottom: 1px solid #d0cdcb;
+        padding: 20px 40px;
+    }
+
+    .slider-icon a {
+        color: #505cfd;
+        font-size: 14px;
+    }
+
+    .single-slider h2 {
+        font-size: 35px;
+    }
+    .single-slider p {
+        font-size: 14px;
+    }
+    .purchase {
+        margin-top: 20px;
+    }
+
+    .single-slider .purchase a {
+        padding: 15px 40px;
+    }
+
+    .features-area {
+        margin-top: 50px;
+    }
+
+    .single-feature {
+        border-right: none;
+        border-bottom: 1px solid #6a74fc;
+    }
+
+    .blog-content .btn {
+        padding: 15px 30px;
+        margin-top: 15px;
+    }
+
+    .why-us-content h3 {
+        font-size: 25px;
+    }
+
+    .btn {
+        padding: 15px 50px;
+        margin-top: 15px;
+    }
+
+    .why-us-content {
+        margin-bottom: 24px;
+    }
+
+    .email-subscribe form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .email-subscribe form button {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .section-title h2 {
+        font-size: 22px;
+    }
+
+    .pricing-items {
+        -moz-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .counter-wrapper {
+        margin-bottom: 25px;
+    }
+
+    .single-testimonial {
+        padding: 25px;
+    }
+
+    .single-testimonial p {
+        line-height: 24px;
+    }
+
+    .single-testimonial span {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    .testimonial-active .slick-dots {
+        margin-top: -45px;
+    }
+
+    .footer-icon svg {
+        font-size: 15px;
+        margin-right: 35px;
+        margin-top: 15px;
+    }
+
+    .footer-link ul li {
+        font-size: 14px;
+    }
+
+    .copyright-text {
+        text-align: center;
+    }
+
+    .footer-menu {
+        text-align: center !important;
+    }
+}
